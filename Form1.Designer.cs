@@ -1,7 +1,7 @@
 ﻿
 namespace temperature
 {
-    partial class Form1
+    partial class temperature
     {
         /// <summary>
         ///  Required designer variable.
@@ -44,7 +44,7 @@ namespace temperature
             // 
             this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.judul.Location = new System.Drawing.Point(293, 29);
+            this.judul.Location = new System.Drawing.Point(210, 15);
             this.judul.Name = "judul";
             this.judul.Size = new System.Drawing.Size(210, 45);
             this.judul.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace temperature
             // celsius
             // 
             this.celsius.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.celsius.Location = new System.Drawing.Point(124, 144);
+            this.celsius.Location = new System.Drawing.Point(45, 121);
             this.celsius.Multiline = true;
             this.celsius.Name = "celsius";
             this.celsius.Size = new System.Drawing.Size(257, 50);
@@ -65,7 +65,7 @@ namespace temperature
             // 
             this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(124, 106);
+            this.label1.Location = new System.Drawing.Point(45, 83);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(257, 38);
             this.label1.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace temperature
             // 
             this.label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(416, 106);
+            this.label2.Location = new System.Drawing.Point(329, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(257, 38);
             this.label2.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace temperature
             // fahrenheit
             // 
             this.fahrenheit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.fahrenheit.Location = new System.Drawing.Point(416, 144);
+            this.fahrenheit.Location = new System.Drawing.Point(329, 121);
             this.fahrenheit.Multiline = true;
             this.fahrenheit.Name = "fahrenheit";
             this.fahrenheit.Size = new System.Drawing.Size(257, 50);
@@ -98,7 +98,7 @@ namespace temperature
             // 
             this.label3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(124, 224);
+            this.label3.Location = new System.Drawing.Point(45, 197);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(257, 38);
             this.label3.TabIndex = 6;
@@ -108,7 +108,7 @@ namespace temperature
             // kelvin
             // 
             this.kelvin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.kelvin.Location = new System.Drawing.Point(124, 262);
+            this.kelvin.Location = new System.Drawing.Point(45, 235);
             this.kelvin.Multiline = true;
             this.kelvin.Name = "kelvin";
             this.kelvin.Size = new System.Drawing.Size(257, 50);
@@ -120,7 +120,7 @@ namespace temperature
             // 
             this.label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(416, 224);
+            this.label4.Location = new System.Drawing.Point(329, 197);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(257, 38);
             this.label4.TabIndex = 8;
@@ -130,7 +130,7 @@ namespace temperature
             // reamur
             // 
             this.reamur.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.reamur.Location = new System.Drawing.Point(416, 262);
+            this.reamur.Location = new System.Drawing.Point(329, 235);
             this.reamur.Multiline = true;
             this.reamur.Name = "reamur";
             this.reamur.Size = new System.Drawing.Size(257, 50);
@@ -138,11 +138,11 @@ namespace temperature
             this.reamur.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.reamur.KeyUp += new System.Windows.Forms.KeyEventHandler(this.reamur_KeyUp);
             // 
-            // Form1
+            // temperature
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 388);
+            this.ClientSize = new System.Drawing.Size(632, 339);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.reamur);
             this.Controls.Add(this.label3);
@@ -152,8 +152,8 @@ namespace temperature
             this.Controls.Add(this.label1);
             this.Controls.Add(this.celsius);
             this.Controls.Add(this.judul);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "temperature";
+            this.Text = "Temperature";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

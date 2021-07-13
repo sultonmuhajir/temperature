@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace temperature
 {
-    public partial class Form1 : Form
+    public partial class temperature : Form
     {
 
-        public Form1()
+        public temperature()
         {
             InitializeComponent();
         }
