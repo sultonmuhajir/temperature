@@ -42,13 +42,13 @@ namespace temperature
             // 
             // judul
             // 
-            this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.judul.Location = new System.Drawing.Point(210, 15);
+            this.judul.Location = new System.Drawing.Point(45, 15);
             this.judul.Name = "judul";
-            this.judul.Size = new System.Drawing.Size(210, 45);
+            this.judul.Size = new System.Drawing.Size(541, 45);
             this.judul.TabIndex = 0;
             this.judul.Text = "Temperature";
+            this.judul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // celsius
             // 

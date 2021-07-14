@@ -61,9 +61,9 @@ namespace temperature
                 if (Regex.IsMatch(celsius.Text, "^-?\\d*(\\,\\d+)?$"))
                 {
                     float c = float.Parse(celsius.Text);
-                    fahrenheit.Text = (Math.Round((c*(9/5f))+32, 2)).ToString();
-                    kelvin.Text = (Math.Round(c+273.15, 2)).ToString();
-                    reamur.Text = (Math.Round((4/5f)*c, 2)).ToString();
+                    fahrenheit.Text = Math.Round((c*(9/5f))+32, 2).ToString();
+                    kelvin.Text = Math.Round(c+273.15, 2).ToString();
+                    reamur.Text = Math.Round((4/5f)*c, 2).ToString();
                 }
                 else
                 {
@@ -84,9 +84,9 @@ namespace temperature
                 if (Regex.IsMatch(fahrenheit.Text, "^-?\\d*(\\,\\d+)?$"))
                 {
                     float f = float.Parse(fahrenheit.Text);
-                    celsius.Text = (Math.Round((f-32)*(5/9f), 2)).ToString();
-                    kelvin.Text = (Math.Round((f-32)*(5/9f)+273.15, 2)).ToString();
-                    reamur.Text = (Math.Round((4/9f)*(f-32), 2)).ToString();
+                    celsius.Text = Math.Round((f-32)*(5/9f), 2).ToString();
+                    kelvin.Text = Math.Round((f-32)*(5/9f)+273.15, 2).ToString();
+                    reamur.Text = Math.Round((4/9f)*(f-32), 2).ToString();
                 }
                 else
                 {
@@ -107,9 +107,9 @@ namespace temperature
                 if (Regex.IsMatch(kelvin.Text, "^-?\\d*(\\,\\d+)?$"))
                 {
                     float k = float.Parse(kelvin.Text);
-                    celsius.Text = (Math.Round(k-273.15, 2)).ToString();
-                    fahrenheit.Text = (Math.Round((k-273.15)*(9/5f)+32, 2)).ToString();
-                    reamur.Text = (Math.Round((4/5f)*(k-273.15), 2)).ToString();
+                    celsius.Text = Math.Round(k-273.15, 2).ToString();
+                    fahrenheit.Text = Math.Round((k-273.15)*(9/5f)+32, 2).ToString();
+                    reamur.Text = Math.Round((4/5f)*(k-273.15), 2).ToString();
                 }
                 else
                 {
@@ -130,9 +130,9 @@ namespace temperature
                 if (Regex.IsMatch(reamur.Text, "^-?\\d*(\\,\\d+)?$"))
                 {
                     float r = float.Parse(reamur.Text);
-                    celsius.Text = (Math.Round((5/4f)*r, 2)).ToString();
-                    fahrenheit.Text = (Math.Round((9/4f)*r+32, 2)).ToString();
-                    kelvin.Text = (Math.Round((5/4f)*r+273.15, 2)).ToString();
+                    celsius.Text = Math.Round((5/4f)*r, 2).ToString();
+                    fahrenheit.Text = Math.Round((9/4f)*r+32, 2).ToString();
+                    kelvin.Text = Math.Round((5/4f)*r+273.15, 2).ToString();
                 }
                 else
                 {
